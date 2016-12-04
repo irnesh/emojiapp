@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EmojiApp/EmojiDefinitionViewController.swift"
+            timestampString = "502514771.785551"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "EmojiDefinitionViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmojiApp.EmojiDefinitionViewController.categoryLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "EmojiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Irene/Google%20Drive/Apps/EmojiApp/EmojiApp/EmojiApp/EmojiDefinitionViewController.swift"
+                  timestampString = "502514020.212119"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmojiApp.EmojiDefinitionViewController.categoryLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "EmojiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Irene/Google%20Drive/Apps/EmojiApp/EmojiApp/EmojiApp/EmojiDefinitionViewController.swift"
+                  timestampString = "502514020.217652"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmojiApp.EmojiDefinitionViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; EmojiApp.EmojiDefinitionViewController"
+                  moduleName = "EmojiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Irene/Google%20Drive/Apps/EmojiApp/EmojiApp/EmojiApp/EmojiDefinitionViewController.swift"
+                  timestampString = "502514020.22094"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "213">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EmojiApp.EmojiDefinitionViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;EmojiApp.EmojiDefinitionViewController&gt;"
+                  moduleName = "EmojiApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Irene/Google%20Drive/Apps/EmojiApp/EmojiApp/EmojiApp/EmojiDefinitionViewController.swift"
+                  timestampString = "502514020.224058"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "139">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

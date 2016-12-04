@@ -68,17 +68,35 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EGq-TI-WaV">
+                                <rect key="frame" x="152" y="438" width="71" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birth year" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZB-xl-pkd">
+                                <rect key="frame" x="150.5" y="479" width="74" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="yZB-xl-pkd" firstAttribute="top" secondItem="EGq-TI-WaV" secondAttribute="bottom" constant="20" id="2ak-VV-vC8"/>
                             <constraint firstItem="pai-dc-ve7" firstAttribute="top" secondItem="odW-J8-d7R" secondAttribute="bottom" constant="30" id="5Bk-m2-KY0"/>
+                            <constraint firstItem="EGq-TI-WaV" firstAttribute="top" secondItem="pai-dc-ve7" secondAttribute="bottom" constant="20" id="DHJ-IS-DSq"/>
                             <constraint firstItem="pai-dc-ve7" firstAttribute="centerX" secondItem="uop-5t-sYh" secondAttribute="centerX" id="VcN-cc-lfK"/>
                             <constraint firstItem="odW-J8-d7R" firstAttribute="centerX" secondItem="uop-5t-sYh" secondAttribute="centerX" id="cqH-CM-fo8"/>
                             <constraint firstItem="odW-J8-d7R" firstAttribute="top" secondItem="JEF-li-YDF" secondAttribute="bottom" constant="64" id="kW2-aR-C0G"/>
+                            <constraint firstItem="EGq-TI-WaV" firstAttribute="centerX" secondItem="uop-5t-sYh" secondAttribute="centerX" id="sM5-LC-8pD"/>
+                            <constraint firstItem="yZB-xl-pkd" firstAttribute="centerX" secondItem="uop-5t-sYh" secondAttribute="centerX" id="tjX-aL-geJ"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="definitionLabel" destination="pai-dc-ve7" id="kf8-4d-T9b"/>
+                        <outlet property="birthYearLabel" destination="yZB-xl-pkd" id="3yz-jn-8j5"/>
+                        <outlet property="categoryLabel" destination="EGq-TI-WaV" id="ci1-bM-c7R"/>
+                        <outlet property="definitionLabel" destination="pai-dc-ve7" id="OCU-oG-H2D"/>
                         <outlet property="emojiLabel" destination="odW-J8-d7R" id="ADl-Yj-Rgl"/>
                     </connections>
                 </viewController>
